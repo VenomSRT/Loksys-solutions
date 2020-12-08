@@ -1,0 +1,20 @@
+.about {
+  padding-bottom: 118px;
+
+  &__title {
+    @extend %chapterTitle;
+  }
+
+  &__content {
+    padding: 35px 33px 25px;
+  }
+
+  &__paragraph {
+    padding: 10px 0;
+    text-align: center;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 24px;
+    color: #285569;
+  }
+}

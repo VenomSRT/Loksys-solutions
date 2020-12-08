@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Loksys solutions</title>
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
 
   <body>
@@ -37,6 +38,10 @@
             </li>
           </ul>
         </nav>
+
+        <div class="header__menu-btn menu-btn">
+          <div class="menu-btn__burger"></div>
+        </div>
       </div>
     </header>
 
@@ -50,22 +55,18 @@
           />
         </div>
 
+        <div class="top__links-container">
+          <a href="#" class="top__link">Secured</a>
+          <a href="#" class="top__link">Tracked</a>
+          <a href="#" class="top__link">Delivered</a>
+        </div>
+
         <ul class="top__anchors-container">
           <li class="top__anchor-item">
             <a href="#" class="top__anchor-link">
               <img
                 src="./images/freight_owners.png"
                 alt="Freight owners"
-                class="top__anchor-image"
-              />
-            </a>
-          </li>
-
-          <li class="top__anchor-item">
-            <a href="#" class="top__anchor-link">
-              <img
-                src="./images/smart-ecosystems.png"
-                alt="Smart-freight ecosystem"
                 class="top__anchor-image"
               />
             </a>
@@ -84,6 +85,16 @@
           <li class="top__anchor-item">
             <a href="#" class="top__anchor-link">
               <img
+                src="./images/smart-ecosystems.png"
+                alt="Smart-freight ecosystem"
+                class="top__anchor-image"
+              />
+            </a>
+          </li>
+
+          <li class="top__anchor-item">
+            <a href="#" class="top__anchor-link">
+              <img
                 src="./images/sme-logistics.png"
                 alt="SME logistics companies"
                 class="top__anchor-image"
@@ -92,44 +103,46 @@
           </li>
         </ul>
 
-        <img
-          src="./images/arrow.png"
-          alt="scroll down"
-          class="top__arrow arrow"
-        />
+        <div class="top__arrow arrow"></div>
       </div>
 
       <div class="main__about about">
         <h2 class="about__title">About us</h2>
 
-        <p class="about__paragraph">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-          suscipit ante enim, in ullamcorper lorem interdum a. Nulla iaculis
-          velit nisi, eu pellentesque justo viverra vulputate. Cum sociis
-          natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-          mus. Nunc facilisis vitae lacus a efficitur. Phasellus at tortor ante.
-          Maecenas sollicitudin tellus eget nisi egestas molestie. Maecenas eu
-          tincidunt urna. Maecenas et libero hendrerit, faucibus turpis non,
-          lacinia neque. Donec pharetra sit amet ex non eleifend. In varius ex
-          sit amet finibus finibus. Vestibulum ante ipsum primis in faucibus
-          orci luctus et ultrices posuere cubilia Curae; Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit. Vivamus commodo, odio eget
-          malesuada faucibus, ipsum odio rhoncus purus, ac faucibus sem quam
-          volutpat eros. Vestibulum ante ipsum primis in faucibus orci luctus et
-          ultrices posuere cubilia Curae; Sed pellentesque ex massa, quis
-          ultrices leo placerat at. Nam convallis ante urna, ut pulvinar sem
-          aliquam in. Mauris semper magna ac lectus sollicitudin, non mattis
-          felis auctor. Nunc suscipit non velit ac faucibus. Phasellus porttitor
-          pretium turpis, id vestibulum nisi semper nec. Integer consectetur
-          quam sit amet lorem hendrerit pharetra. Fusce quis rutrum ex. Mauris
-          non risus nec neque commodo lobortis et et libero. Proin cursus massa.
-        </p>
+        <div class="about__content">
+          <p class="about__paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            suscipit ante enim, in ullamcorper lorem interdum a. Nulla iaculis
+            velit nisi, eu pellentesque justo viverra vulputate. Cum sociis
+            natoque penatibus et magnis dis parturient montes, nascetur
+            ridiculus mus. Nunc facilisis vitae lacus a efficitur. Phasellus at
+            tortor ante. Maecenas sollicitudin tellus eget nisi egestas
+            molestie. Maecenas eu tincidunt urna. Maecenas et libero hendrerit,
+            faucibus turpis non, lacinia neque.
+          </p>
 
-        <img
-          src="./images/arrow.png"
-          alt="scroll down"
-          class="about__arrow arrow"
-        />
+          <p class="about__paragraph">
+            Donec pharetra sit amet ex non eleifend. In varius ex sit amet
+            finibus finibus. Vestibulum ante ipsum primis in faucibus orci
+            luctus et ultrices posuere cubilia Curae; Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit. Vivamus commodo, odio eget
+            malesuada faucibus, ipsum odio rhoncus purus, ac faucibus sem quam
+            volutpat eros. Vestibulum ante ipsum primis in faucibus orci luctus
+            et ultrices posuere cubilia Curae; Sed pellentesque ex massa, quis
+            ultrices leo placerat at. Nam convallis ante urna, ut pulvinar sem
+            aliquam in.
+          </p>
+
+          <p class="about__paragraph">
+            Mauris semper magna ac lectus sollicitudin, non mattis felis auctor.
+            Nunc suscipit non velit ac faucibus. Phasellus porttitor pretium
+            turpis, id vestibulum nisi semper nec. Integer consectetur quam sit
+            amet lorem hendrerit pharetra. Fusce quis rutrum ex. Mauris non
+            risus nec neque commodo lobortis et et libero. Proin cursus massa.
+          </p>
+        </div>
+
+        <div class="about__arrow arrow"></div>
       </div>
 
       <div class="main__business business">
@@ -375,11 +388,13 @@
           <div class="benefits__header benefits__header--freight-owners"></div>
 
           <div class="benefits__content">
-            <img
-              class="benefits__image"
-              src="./images/freight-owners-big.png"
-              alt="freight owners"
-            />
+            <div class="benefits__image-container">
+              <img
+                class="benefits__image"
+                src="./images/freight-icon.png"
+                alt="freight owners"
+              />
+            </div>
 
             <article class="benefits__article article">
               <h3 class="article__title">Freight Owners</h3>
@@ -419,11 +434,13 @@
           <div class="benefits__header benefits__header--large-companies"></div>
 
           <div class="benefits__content">
-            <img
-              class="benefits__image"
-              src="./images/smart-ecosystems-big.png"
-              alt="large logistics"
-            />
+            <div class="benefits__image-container">
+              <img
+                class="benefits__image"
+                src="./images/crane-icon.png"
+                alt="large logistics"
+              />
+            </div>
 
             <article class="benefits__article article">
               <h3 class="article__title">Large Companies</h3>
@@ -464,11 +481,13 @@
           <div class="benefits__header benefits__header--large-logistics"></div>
 
           <div class="benefits__content">
-            <img
-              class="benefits__image"
-              src="./images/large-logistics-big.png"
-              alt="large companies"
-            />
+            <div class="benefits__image-container">
+              <img
+                class="benefits__image"
+                src="./images/transportation-icon.png"
+                alt="large companies"
+              />
+            </div>
 
             <article class="benefits__article article">
               <h3 class="article__title">Large Logistics Companies</h3>
@@ -509,11 +528,13 @@
           <div class="benefits__header benefits__header--sme"></div>
 
           <div class="benefits__content">
-            <img
-              class="benefits__image"
-              src="./images/SME-big.png"
-              alt="sme companies"
-            />
+            <div class="benefits__image-container">
+              <img
+                class="benefits__image"
+                src="./images/stock-icon.png"
+                alt="sme companies"
+              />
+            </div>
 
             <article class="benefits__article article">
               <h3 class="article__title">SME Logistics Companies</h3>
@@ -574,17 +595,19 @@
 
       <div class="footer__soc-container">
         <a href="" class="footer__soc-link">
-          <img src="./images/facebook.png" alt="facebook">
+          <img src="./images/facebook.png" alt="facebook" />
         </a>
 
         <a href="" class="footer__soc-link">
-          <img src="./images/twitter.png" alt="twitter">
+          <img src="./images/twitter.png" alt="twitter" />
         </a>
-        
+
         <a href="" class="footer__soc-link">
-          <img src="./images/linkedin.png" alt="linkedin">
+          <img src="./images/linkedin.png" alt="linkedin" />
         </a>
       </div>
     </footer>
+
+    <script src="./script.js"></script>
   </body>
 </html>

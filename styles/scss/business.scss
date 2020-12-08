@@ -1,0 +1,9 @@
+.business {
+  &__title {
+    @extend %chapterTitle;
+  }
+
+  &__illustration {
+    width: 100%;
+  }
+}

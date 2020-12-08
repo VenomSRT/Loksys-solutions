@@ -1,0 +1,49 @@
+.top {
+  padding-top: 43px;
+  padding-bottom: 82px;
+  background-image: url("../../images/head-bg-mobile.jpg");
+  background-position-y: 175px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  &__image-container {
+    width: 100%;
+    padding: 0 20px 20px;
+  }
+
+  &__image {
+    width: 100%;
+  }
+
+  &__links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__link {
+    padding-bottom: 11px;
+    text-transform: uppercase;
+    color: #2c7797;
+    font-size: 31px;
+
+    &:hover {
+      font-weight: 700;
+      text-decoration: underline;
+    }
+  }
+
+  &__anchors-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 6px;
+  }
+
+  &__anchor-item {
+    width: 85px;
+  }
+
+  &__anchor-image {
+    width: 100%;
+  }
+}
