@@ -1,0 +1,78 @@
+.benefits {
+  color: #fff;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 121px;
+
+    &--freight-owners {
+      background-color: #b42969;
+    }
+
+    &--large-companies {
+      background-color: #662781;
+    }
+
+    &--large-logistics {
+      background-color: #2c7797;
+    }
+
+    &--sme {
+      background-color: #93c023;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    order: 1;
+    padding: 27px 0 21px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;
+  }
+
+  &__image-container {
+    order: 2;
+  }
+
+  &__image {
+    &--freight {
+      width: 59px;
+    }
+
+    &--transportation {
+      width: 79px;
+    }
+
+    &--crane {
+      width: 69px;
+    }
+
+    &--sme {
+      width: 69px;
+    }
+  }
+
+  &__article {
+    order: 3;
+    padding-bottom: 38px;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+  }
+
+  &__paragraph {
+    padding: 10px 25px;
+  }
+
+  &__button {
+    display: none;
+  }
+}

@@ -1,6 +1,28 @@
 .business {
+  padding-bottom: 85px;
+
   &__title {
     @extend %chapterTitle;
+  }
+
+  &__content {
+    padding: 35px 33px 25px;
+  }
+
+  &__article-title {
+    padding: 10px 0;
+    text-align: center;
+    color: #285569;
+    font-size: 22px;
+    font-weight: 100;
+  }
+
+  &__paragraph {
+    @extend %paragraph;
+  }
+
+  &__illustration-container {
+    display: none;
   }
 
   &__illustration {

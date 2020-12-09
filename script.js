@@ -1,3 +1,10 @@
+const technologySwiper = new Swiper('.technology__swiper', {
+    pagination: {
+        el: '.swiper-pagination',
+    },
+    slidesPerView: 1,
+});
+
 const menuBtn = document.querySelector('.menu-btn');
 let menuOpen = false;
 menuBtn.addEventListener('click', () => {

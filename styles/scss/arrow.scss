@@ -4,4 +4,8 @@
   height: 43px;
   background-image: url("../../images/arrow.png");
   background-size: contain;
+
+  &--white {
+    background-image: url("../../images/arrow-white.png");
+  }
 }

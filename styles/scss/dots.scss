@@ -1,0 +1,19 @@
+.dots.swiper-pagination {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 125px;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  .swiper-pagination-bullet {
+    width: 18px;
+    height: 18px;
+    background-color: #bcbcbc;
+    border-radius: 50%;
+
+    &-active {
+      background-color: #285569;
+    }
+  }
+}

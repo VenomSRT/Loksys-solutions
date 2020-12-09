@@ -1,0 +1,30 @@
+.contacts {
+  &__title {
+    @extend %chapterTitle;
+  }
+
+  &__map-container {
+    position: relative;
+    height: 223px;
+    background-image: url("../../images/map-bg.jpg");
+  }
+
+  &__logo-container {
+    position: absolute;
+    bottom: -37px;
+    left: 50%;
+    width: 105px;
+    height: 105px;
+    transform: translate(-50%, 0);
+    border: 10px solid #285569;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+
+  &__logo {
+    width: 74px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+  }
+}
