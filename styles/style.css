@@ -485,7 +485,7 @@ body {
 }
 @media (min-width: 1356px) {
   .about__content {
-    padding: 99px 64px 80px;
+    padding: 99px 0 80px;
   }
 }
 .business {
@@ -509,8 +509,7 @@ body {
   .business__content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-top: 54px;
-    padding-bottom: 33px;
+    padding: 54px 0 33px;
   }
 }
 .business__article-title {
@@ -528,7 +527,6 @@ body {
 @media (min-width: 1356px) {
   .business__article-title {
     text-align: left;
-    padding-left: 19px;
     font-size: 31px;
   }
 }
@@ -536,7 +534,7 @@ body {
   .business__paragraph {
     font-size: 22px;
     line-height: 28px;
-    padding: 19px 19px 9px;
+    padding: 19px 0 9px;
     text-align: left;
   }
 }
@@ -584,7 +582,7 @@ body {
 }
 .business__description-container--3 {
   bottom: 17px;
-  right: 31px;
+  right: 11px;
 }
 .business__description-container--3::before {
   top: -101px;
@@ -629,7 +627,9 @@ body {
   .technology__slide {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-bottom: 93px;
+    padding-bottom: 68px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 .technology__illustration {
