@@ -696,19 +696,19 @@ body {
   }
   .benefits__container--freight-owners {
     color: #b42969;
-    background-image: url("../../images/freight-bg.jpg");
+    background-image: url("../images/freight-bg.jpg");
   }
   .benefits__container--large-companies {
     color: #662781;
-    background-image: url("../../images/large-logistics-bg.jpg");
+    background-image: url("../images/large-logistics-bg.jpg");
   }
   .benefits__container--large-logistics {
     color: #2c7797;
-    background-image: url("../../images/smart-ecosystems-bg.jpg");
+    background-image: url("../images/smart-ecosystems-bg.jpg");
   }
   .benefits__container--sme {
     color: #93c023;
-    background-image: url("../../images/SME-bg.jpg");
+    background-image: url("../images/SME-bg.jpg");
   }
 }
 .benefits__header {
@@ -774,16 +774,16 @@ body {
   }
 }
 .benefits__image-container--freight {
-  background-image: url("../../images/hex-red.png");
+  background-image: url("../images/hex-red.png");
 }
 .benefits__image-container--crane {
-  background-image: url("../../images/hex-blue.png");
+  background-image: url("../images/hex-blue.png");
 }
 .benefits__image-container--transportation {
-  background-image: url("../../images/hex-purple.png");
+  background-image: url("../images/hex-purple.png");
 }
 .benefits__image-container--sme {
-  background-image: url("../../images/hex-green.png");
+  background-image: url("../images/hex-green.png");
 }
 .benefits__image--freight {
   width: 59px;
