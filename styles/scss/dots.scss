@@ -6,6 +6,14 @@
   left: 50%;
   transform: translate(-50%, 0);
 
+  @media (min-width: 750px) {
+    width: 245px;
+  }
+
+  @media (min-width: 1356px) {
+    width: 123px;
+  }
+
   .swiper-pagination-bullet {
     width: 18px;
     height: 18px;
@@ -14,6 +22,16 @@
 
     &-active {
       background-color: #285569;
+    }
+
+    @media (min-width: 750px) {
+      width: 35px;
+      height: 35px;
+    }
+
+    @media (min-width: 1356px) {
+      width: 17px;
+      height: 17px;
     }
   }
 }

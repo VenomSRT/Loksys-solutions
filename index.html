@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Loksys solutions</title>
+    <link rel="stylesheet" href="./styles/fonts/font.css" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
@@ -13,7 +14,7 @@
 
   <body>
     <header class="header">
-      <div class="header__container">
+      <div class="header__container container">
         <img
           class="header__logo"
           src="./images/loksys_logo.png"
@@ -30,7 +31,7 @@
             </li>
 
             <li class="navigation__item">
-              <a href="#" class="navigation__link">The tchnology</a>
+              <a href="#" class="navigation__link">The technology</a>
             </li>
 
             <li class="navigation__item">
@@ -67,42 +68,62 @@
 
         <ul class="top__anchors-container">
           <li class="top__anchor-item">
-            <a href="#freight" class="top__anchor-link">
+            <a
+              href="#freight"
+              class="top__anchor-link top__anchor-link--freight"
+            >
               <img
                 src="./images/freight_owners.png"
                 alt="Freight owners"
                 class="top__anchor-image"
               />
+
+              <span class="top__anchor-title"
+                >Freight<br />
+                owners</span
+              >
             </a>
           </li>
 
           <li class="top__anchor-item">
-            <a href="#large-companies" class="top__anchor-link">
-              <img
-                src="./images/large-logistics.png"
-                alt="Large logistics companies"
-                class="top__anchor-image"
-              />
-            </a>
-          </li>
-
-          <li class="top__anchor-item">
-            <a href="#large-logistics" class="top__anchor-link">
+            <a
+              href="#large-logistics"
+              class="top__anchor-link top__anchor-link--smart"
+            >
               <img
                 src="./images/smart-ecosystems.png"
                 alt="Smart-freight ecosystem"
                 class="top__anchor-image"
               />
+
+              <span class="top__anchor-title">Smart-freight ecosystem</span>
             </a>
           </li>
 
           <li class="top__anchor-item">
-            <a href="#sme" class="top__anchor-link">
+            <a
+              href="#large-companies"
+              class="top__anchor-link top__anchor-link--large"
+            >
+              <img
+                src="./images/large-logistics.png"
+                alt="Large logistics companies"
+                class="top__anchor-image"
+              />
+
+              <span class="top__anchor-title">Large logistics companies</span>
+            </a>
+          </li>
+
+          <li class="top__anchor-item">
+            <a href="#sme" class="top__anchor-link top__anchor-link--sme">
               <img
                 src="./images/sme-logistics.png"
                 alt="SME logistics companies"
                 class="top__anchor-image"
               />
+
+              <span class="top__anchor-title">SME logistics companies</span>
             </a>
           </li>
         </ul>
@@ -186,38 +207,53 @@
               class="business__illustration"
             />
 
-            <p class="business__description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              in accumsan lorem. Proin sit amet ex nec tellus tempus mollis.
-              Donec tincidunt consequat lorem, quis auctor libero. Donec et
-              vulputate est, vel posuere risus. Fusce non lorem rutrum, porta
-              dui et, porta ante. In mi augue, commodo vitae euismod eu, mattis
-              non diam. Aliquam scelerisque lectus in ex feugiat malesuada.
-              Etiam sollicitudin non est a maximus. Duis mollis mauris sit amet
-              blandit consequat. Sed sit amet arcu quis nisl aliquet maximus.
-            </p>
+            <div
+              class="business__description-container business__description-container--1"
+            >
+              <p class="business__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus in accumsan lorem. Proin sit amet ex nec tellus tempus
+                mollis. Donec tincidunt consequat lorem, quis auctor libero.
+                Donec et vulputate est, vel posuere risus. Fusce non lorem
+                rutrum, porta dui et, porta ante. In mi augue, commodo vitae
+                euismod eu, mattis non diam. Aliquam scelerisque lectus in ex
+                feugiat malesuada. Etiam sollicitudin non est a maximus. Duis
+                mollis mauris sit amet blandit consequat. Sed sit amet arcu quis
+                nisl aliquet maximus.
+              </p>
+            </div>
 
-            <p class="business__description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              in accumsan lorem. Proin sit amet ex nec tellus tempus mollis.
-              Donec tincidunt consequat lorem, quis auctor libero. Donec et
-              vulputate est, vel posuere risus. Fusce non lorem rutrum, porta
-              dui et, porta ante. In mi augue, commodo vitae euismod eu, mattis
-              non diam. Aliquam scelerisque lectus in ex feugiat malesuada.
-              Etiam sollicitudin non est a maximus. Duis mollis mauris sit amet
-              blandit consequat. Sed sit amet arcu quis nisl aliquet maximus.
-            </p>
+            <div
+              class="business__description-container business__description-container--2"
+            >
+              <p class="business__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus in accumsan lorem. Proin sit amet ex nec tellus tempus
+                mollis. Donec tincidunt consequat lorem, quis auctor libero.
+                Donec et vulputate est, vel posuere risus. Fusce non lorem
+                rutrum, porta dui et, porta ante. In mi augue, commodo vitae
+                euismod eu, mattis non diam. Aliquam scelerisque lectus in ex
+                feugiat malesuada. Etiam sollicitudin non est a maximus. Duis
+                mollis mauris sit amet blandit consequat. Sed sit amet arcu quis
+                nisl aliquet maximus.
+              </p>
+            </div>
 
-            <p class="business__description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              in accumsan lorem. Proin sit amet ex nec tellus tempus mollis.
-              Donec tincidunt consequat lorem, quis auctor libero. Donec et
-              vulputate est, vel posuere risus. Fusce non lorem rutrum, porta
-              dui et, porta ante. In mi augue, commodo vitae euismod eu, mattis
-              non diam. Aliquam scelerisque lectus in ex feugiat malesuada.
-              Etiam sollicitudin non est a maximus. Duis mollis mauris sit amet
-              blandit consequat. Sed sit amet arcu quis nisl aliquet maximus.
-            </p>
+            <div
+              class="business__description-container business__description-container--3"
+            >
+              <p class="business__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus in accumsan lorem. Proin sit amet ex nec tellus tempus
+                mollis. Donec tincidunt consequat lorem, quis auctor libero.
+                Donec et vulputate est, vel posuere risus. Fusce non lorem
+                rutrum, porta dui et, porta ante. In mi augue, commodo vitae
+                euismod eu, mattis non diam. Aliquam scelerisque lectus in ex
+                feugiat malesuada. Etiam sollicitudin non est a maximus. Duis
+                mollis mauris sit amet blandit consequat. Sed sit amet arcu quis
+                nisl aliquet maximus.
+              </p>
+            </div>
           </div>
         </div>
 
@@ -253,11 +289,7 @@
                 egestas volutpat. Donec ultrices venenatis lobortis. Proin ac
                 nisl varius lectus consectetur maximus. Duis rutrum arcu at
                 lacus tempus, non vulputate diam sodales. Nunc ut sodales
-                ligula. Vestibulum ut ex volutpat, fermentum nisl eu, eleifend
-                magna. Mauris luctus imperdiet lacus nec tristique. Donec ipsum
-                dui, commodo ac sapien id, dignissim dignissim tortor. In
-                laoreet velit dapibus ultricies ullamcorper. Donec egestas neque
-                eget arcu gravida porttitor.
+                ligula. Vestibulum ut ex volutpat,
               </p>
             </div>
 
@@ -285,11 +317,34 @@
                 egestas volutpat. Donec ultrices venenatis lobortis. Proin ac
                 nisl varius lectus consectetur maximus. Duis rutrum arcu at
                 lacus tempus, non vulputate diam sodales. Nunc ut sodales
-                ligula. Vestibulum ut ex volutpat, fermentum nisl eu, eleifend
-                magna. Mauris luctus imperdiet lacus nec tristique. Donec ipsum
-                dui, commodo ac sapien id, dignissim dignissim tortor. In
-                laoreet velit dapibus ultricies ullamcorper. Donec egestas neque
-                eget arcu gravida porttitor.
+                ligula. Vestibulum ut ex volutpat,
+            </div>
+
+            <div class="technology__slide swiper-slide">
+              <img
+                src="./images/technology-img.png"
+                alt="technology"
+                class="technology__illustration"
+              />
+
+              <p class="technology__paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus iaculis sem nec varius lacinia. Mauris ac quam
+                ultricies, venenatis orci a, volutpat nisi. Integer luctus justo
+                sed nunc lobortis, vitae sollicitudin erat ornare. Sed et
+                porttitor libero, ac tincidunt mi. Etiam arcu nulla, ullamcorper
+                vel diam eu, consequat dignissim libero. Nulla quam nunc,
+                consectetur et ligula a, mollis rhoncus metus. Pellentesque
+                porttitor quam vitae purus placerat, id ornare massa tempus.
+                Suspendisse in porta arcu, euismod tempor eros. Suspendisse ut
+                auctor turpis. Sed cursus, erat scelerisque euismod fermentum,
+                diam leo sollicitudin velit, eu finibus turpis metus non nunc.
+                Phasellus aliquet nunc nec dui suscipit tempor. Cras sed nulla
+                nisi. Vestibulum commodo tempor elementum. Duis fringilla
+                egestas volutpat. Donec ultrices venenatis lobortis. Proin ac
+                nisl varius lectus consectetur maximus. Duis rutrum arcu at
+                lacus tempus, non vulputate diam sodales. Nunc ut sodales
+                ligula. Vestibulum ut ex volutpat,
               </p>
             </div>
 
@@ -317,43 +372,7 @@
                 egestas volutpat. Donec ultrices venenatis lobortis. Proin ac
                 nisl varius lectus consectetur maximus. Duis rutrum arcu at
                 lacus tempus, non vulputate diam sodales. Nunc ut sodales
-                ligula. Vestibulum ut ex volutpat, fermentum nisl eu, eleifend
-                magna. Mauris luctus imperdiet lacus nec tristique. Donec ipsum
-                dui, commodo ac sapien id, dignissim dignissim tortor. In
-                laoreet velit dapibus ultricies ullamcorper. Donec egestas neque
-                eget arcu gravida porttitor.
-              </p>
-            </div>
-
-            <div class="technology__slide swiper-slide">
-              <img
-                src="./images/technology-img.png"
-                alt="technology"
-                class="technology__illustration"
-              />
-
-              <p class="technology__paragraph">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus iaculis sem nec varius lacinia. Mauris ac quam
-                ultricies, venenatis orci a, volutpat nisi. Integer luctus justo
-                sed nunc lobortis, vitae sollicitudin erat ornare. Sed et
-                porttitor libero, ac tincidunt mi. Etiam arcu nulla, ullamcorper
-                vel diam eu, consequat dignissim libero. Nulla quam nunc,
-                consectetur et ligula a, mollis rhoncus metus. Pellentesque
-                porttitor quam vitae purus placerat, id ornare massa tempus.
-                Suspendisse in porta arcu, euismod tempor eros. Suspendisse ut
-                auctor turpis. Sed cursus, erat scelerisque euismod fermentum,
-                diam leo sollicitudin velit, eu finibus turpis metus non nunc.
-                Phasellus aliquet nunc nec dui suscipit tempor. Cras sed nulla
-                nisi. Vestibulum commodo tempor elementum. Duis fringilla
-                egestas volutpat. Donec ultrices venenatis lobortis. Proin ac
-                nisl varius lectus consectetur maximus. Duis rutrum arcu at
-                lacus tempus, non vulputate diam sodales. Nunc ut sodales
-                ligula. Vestibulum ut ex volutpat, fermentum nisl eu, eleifend
-                magna. Mauris luctus imperdiet lacus nec tristique. Donec ipsum
-                dui, commodo ac sapien id, dignissim dignissim tortor. In
-                laoreet velit dapibus ultricies ullamcorper. Donec egestas neque
-                eget arcu gravida porttitor.
+                ligula. Vestibulum ut ex volutpat,
               </p>
             </div>
           </div>
@@ -365,11 +384,14 @@
       </div>
 
       <div class="benefits">
-        <div class="benefits__container benefits__container--freight-owners" id="freight">
+        <div
+          class="benefits__container benefits__container--freight-owners"
+          id="freight"
+        >
           <div class="benefits__header benefits__header--freight-owners"></div>
 
           <div class="benefits__content">
-            <div class="benefits__image-container">
+            <div class="benefits__image-container benefits__image-container--freight">
               <img
                 class="benefits__image benefits__image--freight"
                 src="./images/freight-icon.png"
@@ -407,54 +429,14 @@
           <div class="arrow arrow--white"></div>
         </div>
 
-        <div class="benefits__container benefits__container--large-companies" id="large-companies">
-          <div class="benefits__header benefits__header--large-companies"></div>
-
-          <div class="benefits__content">
-            <div class="benefits__image-container">
-              <img
-                class="benefits__image benefits__image--transportation"
-                src="./images/transportation-icon.png"
-                alt="large logistics"
-              />
-            </div>
-
-            <h3 class="benefits__title">Large Logistics Companies</h3>
-
-            <div class="benefits__article">
-              <p class="benefits__paragraph">
-                As world trade develops huge demands are being placed on the
-                parties, which provide the infrastructure to support this.
-                Private Companies and Governmental Agencies have increasingly
-                complex agendas to follow, whether that is monitoring and
-                assessment, optimisation of resources or information exchange.
-              </p>
-
-              <p class="benefits__paragraph">
-                They need to develop progressively complex solutions, which are
-                scalable enough to deal with very large user communities. To
-                provide these state of the art technologies solutions, which
-                provide tangible and measureable benefits in a cost-effective
-                manner, is a real challenge.
-              </p>
-
-              <p class="benefits__paragraph">
-                Loksys Solutions has the experience and know how and product
-                portfolio to help
-              </p>
-            </div>
-          </div>
-
-          <a href="#" class="benefits__button">Learn more</a>
-
-          <div class="arrow arrow--white"></div>
-        </div>
-
-        <div class="benefits__container benefits__container--large-logistics" id="large-logistics">
+        <div
+          class="benefits__container benefits__container--large-logistics"
+          id="large-logistics"
+        >
           <div class="benefits__header benefits__header--large-logistics"></div>
 
           <div class="benefits__content">
-            <div class="benefits__image-container">
+            <div class="benefits__image-container benefits__image-container--crane">
               <img
                 class="benefits__image benefits__image--crane"
                 src="./images/crane-icon.png"
@@ -493,11 +475,57 @@
           <div class="arrow arrow--white"></div>
         </div>
 
+        <div
+          class="benefits__container benefits__container--large-companies"
+          id="large-companies"
+        >
+          <div class="benefits__header benefits__header--large-companies"></div>
+
+          <div class="benefits__content">
+            <div class="benefits__image-container benefits__image-container--transportation">
+              <img
+                class="benefits__image benefits__image--transportation"
+                src="./images/transportation-icon.png"
+                alt="large logistics"
+              />
+            </div>
+
+            <h3 class="benefits__title">Large Logistics Companies</h3>
+
+            <div class="benefits__article">
+              <p class="benefits__paragraph">
+                As world trade develops huge demands are being placed on the
+                parties, which provide the infrastructure to support this.
+                Private Companies and Governmental Agencies have increasingly
+                complex agendas to follow, whether that is monitoring and
+                assessment, optimisation of resources or information exchange.
+              </p>
+
+              <p class="benefits__paragraph">
+                They need to develop progressively complex solutions, which are
+                scalable enough to deal with very large user communities. To
+                provide these state of the art technologies solutions, which
+                provide tangible and measureable benefits in a cost-effective
+                manner, is a real challenge.
+              </p>
+
+              <p class="benefits__paragraph">
+                Loksys Solutions has the experience and know how and product
+                portfolio to help
+              </p>
+            </div>
+          </div>
+
+          <a href="#" class="benefits__button">Learn more</a>
+
+          <div class="arrow arrow--white"></div>
+        </div>
+
         <div class="benefits__container benefits__container--sme" id="sme">
           <div class="benefits__header benefits__header--sme"></div>
 
           <div class="benefits__content">
-            <div class="benefits__image-container">
+            <div class="benefits__image-container benefits__image-container--sme">
               <img
                 class="benefits__image benefits__image--sme"
                 src="./images/stock-icon.png"
@@ -540,38 +568,56 @@
         <h2 class="contacts__title">Contact us</h2>
         <div class="contacts__map-container">
           <div class="contacts__logo-container">
-            <img class="contacts__logo" src="./images/bottom-logo.png" alt="loksys" />
+            <img
+              class="contacts__logo"
+              src="./images/bottom-logo.png"
+              alt="loksys"
+            />
           </div>
         </div>
       </div>
     </main>
 
     <footer class="footer">
-      <p class="footer__paragraph">
-        LOKSYS SOLUTIONS LTD<br />
-        Suite 5c, MIOC , Styal Road , Manchester
-      </p>
+      <div class="footer__container container">
+        <p class="footer__contacts">
+          LOKSYS SOLUTIONS LTD<br />
+          Suite 5c, MIOC , Styal Road , Manchester
+        </p>
 
-      <a href="tel:+4401618709815" class="footer__telephone"
-        >Tel: +44 (0)161 870 9815</a
-      >
+        <a href="tel:+4401618709815" class="footer__contacts"
+          >Tel: +44 (0)161 870 9815</a
+        >
 
-      <a href="mailto:info@loksys.com" class="footer__telephone"
-        >Email: info@loksys.com</a
-      >
+        <a href="mailto:info@loksys.com" class="footer__contacts"
+          >Email: info@loksys.com</a
+        >
 
-      <div class="footer__soc-container">
-        <a href="" class="footer__soc-link">
-          <img src="./images/facebook.png" alt="facebook" />
-        </a>
+        <div class="footer__soc-container">
+          <a href="" class="footer__soc-link">
+            <img
+              src="./images/facebook.png"
+              alt="facebook"
+              class="footer__soc-image footer__soc-image--facebook"
+            />
+          </a>
 
-        <a href="" class="footer__soc-link">
-          <img src="./images/twitter.png" alt="twitter" />
-        </a>
+          <a href="" class="footer__soc-link">
+            <img
+              src="./images/twitter.png"
+              alt="twitter"
+              class="footer__soc-image footer__soc-image--twitter"
+            />
+          </a>
 
-        <a href="" class="footer__soc-link">
-          <img src="./images/linkedin.png" alt="linkedin" />
-        </a>
+          <a href="" class="footer__soc-link">
+            <img
+              src="./images/linkedin.png"
+              alt="linkedin"
+              class="footer__soc-image footer__soc-image--linkedin"
+            />
+          </a>
+        </div>
       </div>
     </footer>
 

@@ -1,17 +1,43 @@
 .header {
+  padding: 23px 0 13px;
+  position: relative;
+
   &__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 14px 14px;
+
+    @media (min-width: 750px) {
+      padding-top: 26px;
+      padding-left: 27px;
+    }
+
+    @media (min-width: 1356px) {
+      padding: 0;
+    }
   }
 
   &__logo {
     width: 190px;
     height: 37px;
+
+    @media (min-width: 750px) {
+      width: 387px;
+      height: 79px;
+    }
   }
 
   &__navigation {
-    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(0, 100%);
+    z-index: 2;
+
+    @media (min-width: 1024px) {
+      position: static;
+      transform: translate(0, 0);
+    }
   }
 }

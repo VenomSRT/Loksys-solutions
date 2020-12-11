@@ -1,12 +1,28 @@
 .business {
   padding-bottom: 85px;
 
+  @media (min-width: 1024px) {
+    background-image: url("../../images/business-bg.jpg");
+    background-size: cover;
+  }
+
+  @media (min-width: 1356px) {
+    padding-bottom: 17px;
+  }
+
   &__title {
     @extend %chapterTitle;
   }
 
   &__content {
     padding: 35px 33px 25px;
+
+    @media (min-width: 1356px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      padding-top: 54px;
+      padding-bottom: 33px;
+    }
   }
 
   &__article-title {
@@ -15,17 +31,95 @@
     color: #285569;
     font-size: 22px;
     font-weight: 100;
+
+    @media (min-width: 750px) {
+      font-size: 45px;
+    }
+
+    @media (min-width: 1356px) {
+      text-align: left;
+      padding-left: 19px;
+      font-size: 31px;
+    }
   }
 
   &__paragraph {
     @extend %paragraph;
+
+    @media (min-width: 1356px) {
+      font-size: 22px;
+      line-height: 28px;
+      padding: 19px 19px 9px;
+      text-align: left;
+    }
   }
 
   &__illustration-container {
     display: none;
+    position: relative;
+    height: 516px;
+
+    @media (min-width: 1356px) {
+      display: flex;
+    }
   }
 
   &__illustration {
-    width: 100%;
+    width: 479px;
+    margin: 191px auto auto 75px;
+  }
+
+  &__description-container {
+    position: absolute;
+
+    &::before {
+      position: absolute;
+      content: "";
+      width: 3px;
+      height: 90px;
+      background-color: #2dabe2;
+    }
+
+    &--1 {
+      bottom: 4px;
+      left: 21px;
+
+      &::before {
+        top: -98px;
+        left: 86px;
+        transform: rotate(25deg);
+      }
+    }
+
+    &--2 {
+      top: 45px;
+      left: 91px;
+
+      &::before {
+        top: 80px;
+        left: 202px;
+        transform: rotate(-32deg);
+      }
+    }
+
+    &--3 {
+      bottom: 17px;
+      right: 31px;
+
+      &::before {
+        top: -101px;
+        left: 28px;
+        transform: rotate(-30deg);
+      }
+    }
+  }
+
+  &__description {
+    color: #54b9e6;
+    font-size: 14px;
+    width: 190px;
+    height: 85px;
+    overflow: hidden;
+    text-align: center;    
   }
 }

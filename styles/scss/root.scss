@@ -2,23 +2,26 @@
 @import "extends";
 
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: "HelveticaLight", serif;
   font-size: 20px;
 }
 
 .container {
-  width: 1356px;
+  position: relative;
+  max-width: 1356px;
   margin: 0 auto;
 }
 
 @import "header";
 @import "menu-btn";
+@import "navigation";
 @import "top";
 @import "about";
 @import "business";
 @import "technology";
 @import "benefits";
 @import "contacts";
+@import "footer";
 @import "dots";
 @import "arrow";
 @import "swiper";

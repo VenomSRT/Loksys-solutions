@@ -6,6 +6,56 @@
     flex-direction: column;
     padding-bottom: 121px;
 
+    @media (min-width: 750px) {
+      padding-bottom: 242px;
+    }
+
+    &--freight-owners {
+      background-color: #b42969;
+    }
+
+    &--large-companies {
+      background-color: #662781;
+    }
+
+    &--large-logistics {
+      background-color: #2c7797;
+    }
+
+    &--sme {
+      background-color: #93c023;
+    }
+
+    @media (min-width: 1356px) {
+      background-color: #fff;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      &--freight-owners {
+        color: #b42969;
+        background-image: url("../../images/freight-bg.jpg");
+      }
+  
+      &--large-companies {
+        color: #662781;
+        background-image: url("../../images/large-logistics-bg.jpg");
+      }
+  
+      &--large-logistics {
+        color: #2c7797;
+        background-image: url("../../images/smart-ecosystems-bg.jpg");
+      }
+  
+      &--sme {
+        color: #93c023;
+        background-image: url("../../images/SME-bg.jpg");
+      }
+    }
+  }
+
+  &__header {
+    height: 98px;
+
     &--freight-owners {
       background-color: #b42969;
     }
@@ -27,6 +77,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media (min-width: 1356px) {
+      display: grid;
+      grid-template-areas:
+        "image title"
+        "image article";
+    }
   }
 
   &__title {
@@ -36,27 +93,97 @@
     text-transform: uppercase;
     text-align: center;
     font-weight: 100;
+
+    @media (min-width: 750px) {
+      padding-top: 49px;
+      padding-bottom: 44px;
+      font-size: 40px;
+    }
+
+    @media (min-width: 1356px) {
+      grid-area: title;
+    }
   }
 
   &__image-container {
     order: 2;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    @media (min-width: 1356px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 403px;
+      height: 349px;
+      background-size: 403px;
+      grid-area: image;
+    }
+
+    &--freight {
+      background-image: url("../../images/hex-red.png");
+    }
+
+    &--crane {
+      background-image: url("../../images/hex-blue.png");
+    }
+
+    &--transportation {
+      background-image: url("../../images/hex-purple.png");
+    }
+
+    &--sme {
+      background-image: url("../../images/hex-green.png");
+    }
   }
 
   &__image {
     &--freight {
       width: 59px;
+
+      @media (min-width: 750px) {
+        width: 117px;
+      }
+
+      @media (min-width: 1356px) {
+        width: 246px;
+      }
     }
 
     &--transportation {
       width: 79px;
+
+      @media (min-width: 750px) {
+        width: 157px;
+      }
+
+      @media (min-width: 1356px) {
+        width: 221px;
+      }
     }
 
     &--crane {
       width: 69px;
+
+      @media (min-width: 750px) {
+        width: 138px;
+      }
+      
+      @media (min-width: 1356px) {
+        width: 194px;
+      }
     }
 
     &--sme {
       width: 69px;
+
+      @media (min-width: 750px) {
+        width: 136px;
+      }
+
+      @media (min-width: 1356px) {
+        width: 274px;
+      }
     }
   }
 
@@ -66,10 +193,21 @@
     font-size: 15px;
     font-weight: 100;
     text-align: center;
+
+    @media (min-width: 750px) {
+      padding-top: 30px;
+      padding-left: 35px;
+      padding-right: 35px;
+    }
+
+    @media (min-width: 1356px) {
+      grid-area: article;
+    }
   }
 
   &__paragraph {
     padding: 10px 25px;
+    font-size: 30px;
   }
 
   &__button {

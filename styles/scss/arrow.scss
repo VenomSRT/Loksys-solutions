@@ -4,6 +4,17 @@
   height: 43px;
   background-image: url("../../images/arrow.png");
   background-size: contain;
+  background-repeat: no-repeat;
+
+  @media (min-width: 750px) {
+    width: 86px;
+    height: 86px;
+  }
+
+  @media (min-width: 1024px) {
+    width: 47px;
+    height: 47px;
+  }
 
   &--white {
     background-image: url("../../images/arrow-white.png");

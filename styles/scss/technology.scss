@@ -1,6 +1,10 @@
 .technology {
   padding-bottom: 89px;
 
+  @media (min-width: 1356px) {
+    padding-bottom: 32px;
+  }
+
   &__title {
     @extend %chapterTitle;
   }
@@ -8,6 +12,7 @@
   &__swiper {
     position: relative;
     display: flex;
+    overflow: hidden;
   }
 
   &__slide {
@@ -15,14 +20,48 @@
     flex-direction: column;
     align-items: center;
     padding: 41px 25px;
+
+    @media (min-width: 750px) {
+      padding-top: 83px;
+      padding-bottom: 123px;
+    }
+
+    @media (min-width: 1356px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      padding-bottom: 93px;
+    }
   }
 
   &__illustration {
     width: 256px;
+
+    @media (min-width: 750px) {
+      width: 512px;
+    }
+
+    @media (min-width: 1024px) {
+      width: 651px;
+    }
+
+    @media (min-width: 1356px) {
+      align-self: start;
+    }
   }
 
   &__paragraph {
     @extend %paragraph;
+
+    @media (min-width: 750px) {
+      padding-top: 79px;
+    }
+
+    @media (min-width: 1356px) {
+      padding-top: 0;
+      font-size: 22px;
+      line-height: 28px;
+      text-align: left;
+    }
   }
 
   &__dots-container {
