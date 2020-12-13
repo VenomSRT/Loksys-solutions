@@ -24,19 +24,19 @@
         <nav class="header__navigation navigation">
           <ul class="navigation__list">
             <li class="navigation__item">
-              <a href="#" class="navigation__link">About us</a>
+              <a href="#about" class="navigation__link">About us</a>
             </li>
 
             <li class="navigation__item">
-              <a href="#" class="navigation__link">The business</a>
+              <a href="#business" class="navigation__link">The business</a>
             </li>
 
             <li class="navigation__item">
-              <a href="#" class="navigation__link">The technology</a>
+              <a href="#technology" class="navigation__link">The technology</a>
             </li>
 
-            <li class="navigation__item">
-              <a href="#" class="navigation__link">Contact us</a>
+            <li class="navigation__item navigation__item--contact">
+              <a href="#contact" class="navigation__link">Contact us</a>
             </li>
 
             <li class="navigation__item">
@@ -132,7 +132,7 @@
         <div class="top__arrow arrow"></div>
       </div>
 
-      <div class="main__about about">
+      <div class="main__about about" id="about">
         <h2 class="about__title">About us</h2>
 
         <div class="about__content container">
@@ -171,7 +171,7 @@
         <div class="about__arrow arrow"></div>
       </div>
 
-      <div class="main__business business">
+      <div class="main__business business" id="business">
         <h2 class="business__title">The business</h2>
 
         <div class="business__content container">
@@ -261,7 +261,7 @@
         <div class="business__arrow arrow"></div>
       </div>
 
-      <div class="main__technology technology">
+      <div class="main__technology technology" id="technology">
         <h2 class="technology__title">The technology</h2>
 
         <div class="technology__swiper container">
@@ -396,41 +396,43 @@
             <div
               class="benefits__image-container benefits__image-container--freight"
             >
-              <img
-                class="benefits__image benefits__image--freight"
-                src="./images/freight-icon.png"
-                alt="freight owners"
-              />
+              <div class="benefits__image benefits__image--freight"></div>
             </div>
 
-            <h3 class="benefits__title">Freight Owners</h3>
+            <div class="benefits__main-content">
+              <h3 class="benefits__title">Freight Owners</h3>
 
-            <div class="benefits__article">
-              <p class="benefits__paragraph">
-                For Companies that move their goods in Shipping Containers who
-                want to reduce the Risk when moving goods we have the answer.
-              </p>
+              <div class="benefits__image benefits__image--freight"></div>
 
-              <p class="benefits__paragraph">
-                When moving goods by Container it is important to ensure that
-                your goods receive the optimum protection whilst in Transit,
-                that you know where your goods are and the condition of these
-                goods and that your Transport partners are conforming to the
-                Service Level Agreement.
-              </p>
+              <div class="benefits__article">
+                <p class="benefits__paragraph">
+                  For Companies that move their goods in Shipping Containers who
+                  want to reduce the Risk when moving goods we have the answer.
+                </p>
 
-              <p class="benefits__paragraph">
-                Trakalok provides all the technology and services to support
-                this. The unique combination of Hardware and Software will
-                enable goods owners to add real benefit to their Supply Chain
-                Risk Management activities.
-              </p>
+                <p class="benefits__paragraph">
+                  When moving goods by Container it is important to ensure that
+                  your goods receive the optimum protection whilst in Transit,
+                  that you know where your goods are and the condition of these
+                  goods and that your Transport partners are conforming to the
+                  Service Level Agreement.
+                </p>
+
+                <p class="benefits__paragraph">
+                  Trakalok provides all the technology and services to support
+                  this. The unique combination of Hardware and Software will
+                  enable goods owners to add real benefit to their Supply Chain
+                  Risk Management activities.
+                </p>
+              </div>
             </div>
+            
+            <a href="#" class="benefits__button">Learn more</a>
           </div>
 
-          <a href="#" class="benefits__button">Learn more</a>
+          
 
-          <div class="arrow arrow--white"></div>
+          <div class="benefits__arrow arrow"></div>
         </div>
 
         <div
@@ -443,42 +445,44 @@
             <div
               class="benefits__image-container benefits__image-container--crane"
             >
-              <img
-                class="benefits__image benefits__image--crane"
-                src="./images/crane-icon.png"
-                alt="large companies"
-              />
+              <div class="benefits__image benefits__image--crane"></div>
             </div>
 
-            <h3 class="benefits__title">Large Companies</h3>
+            <div class="benefits__main-content">
+              <h3 class="benefits__title">Large Companies</h3>
 
-            <div class="benefits__article">
-              <p class="benefits__paragraph">
-                As supply chains become increasingly complex it is important the
-                Logistics Providers offer the optimum solutions.
-              </p>
+              <div class="benefits__image benefits__image--crane"></div>
 
-              <p class="benefits__paragraph">
-                These complexities are an inevitable result of the
-                ever-increasing demand for information from the different
-                stakeholders and the need to efficiently co-ordinate activities
-                from all participants in the supply chain.
-              </p>
+              <div class="benefits__article">
+                <p class="benefits__paragraph">
+                  As world trade develops huge demands are being placed on the
+                  parties, which provide the infrastructure to support this.
+                  Private Companies and Governmental Agencies have increasingly
+                  complex agendas to follow, whether that is monitoring and
+                  assessment, optimisation of resources or information exchange.
+                </p>
 
-              <p class="benefits__paragraph">
-                Loksys solutions offer M-Intransit Platform for this purpose.
-                The platform is a combination of Hardware, Software and Services
-                that will allow you to create a seamless virtual organisation,
-                building on the concepts of the Internet of Things to build
-                complex, customer centric solutions to meet the needs of the
-                most demanding customers.
-              </p>
+                <p class="benefits__paragraph">
+                  They need to develop progressively complex solutions, which
+                  are scalable enough to deal with very large user communities.
+                  To provide these state of the art technologies solutions,
+                  which provide tangible and measureable benefits in a
+                  cost-effective manner, is a real challenge.
+                </p>
+
+                <p class="benefits__paragraph">
+                  Loksys Solutions has the experience and know how and product
+                  portfolio to help
+                </p>
+              </div>
             </div>
+
+            <a href="#" class="benefits__button">Learn more</a>
           </div>
 
-          <a href="#" class="benefits__button">Learn more</a>
+          
 
-          <div class="arrow arrow--white"></div>
+          <div class="benefits__arrow arrow"></div>
         </div>
 
         <div
@@ -491,42 +495,48 @@
             <div
               class="benefits__image-container benefits__image-container--transportation"
             >
-              <img
+              <div
                 class="benefits__image benefits__image--transportation"
-                src="./images/transportation-icon.png"
-                alt="large logistics"
-              />
+              ></div>
             </div>
 
-            <h3 class="benefits__title">Large Logistics Companies</h3>
+            <div class="benefits__main-content">
+              <h3 class="benefits__title">Large Logistics Companies</h3>
 
-            <div class="benefits__article">
-              <p class="benefits__paragraph">
-                As world trade develops huge demands are being placed on the
-                parties, which provide the infrastructure to support this.
-                Private Companies and Governmental Agencies have increasingly
-                complex agendas to follow, whether that is monitoring and
-                assessment, optimisation of resources or information exchange.
-              </p>
+              <div
+                class="benefits__image benefits__image--transportation"
+              ></div>
 
-              <p class="benefits__paragraph">
-                They need to develop progressively complex solutions, which are
-                scalable enough to deal with very large user communities. To
-                provide these state of the art technologies solutions, which
-                provide tangible and measureable benefits in a cost-effective
-                manner, is a real challenge.
-              </p>
+              <div class="benefits__article">
+                <p class="benefits__paragraph">
+                  As supply chains become increasingly complex it is important
+                  the Logistics Providers offer the optimum solutions.
+                </p>
 
-              <p class="benefits__paragraph">
-                Loksys Solutions has the experience and know how and product
-                portfolio to help
-              </p>
+                <p class="benefits__paragraph">
+                  These complexities are an inevitable result of the
+                  ever-increasing demand for information from the different
+                  stakeholders and the need to efficiently co-ordinate
+                  activities from all participants in the supply chain.
+                </p>
+
+                <p class="benefits__paragraph">
+                  Loksys solutions offer M-Intransit Platform for this purpose.
+                  The platform is a combination of Hardware, Software and
+                  Services that will allow you to create a seamless virtual
+                  organisation, building on the concepts of the Internet of
+                  Things to build complex, customer centric solutions to meet
+                  the needs of the most demanding customers.
+                </p>
+              </div>
             </div>
+
+            <a href="#" class="benefits__button">Learn more</a>
           </div>
 
-          <a href="#" class="benefits__button">Learn more</a>
+          
 
-          <div class="arrow arrow--white"></div>
+          <div class="benefits__arrow arrow"></div>
         </div>
 
         <div class="benefits__container benefits__container--sme" id="sme">
@@ -536,45 +546,37 @@
             <div
               class="benefits__image-container benefits__image-container--sme"
             >
-              <img
-                class="benefits__image benefits__image--sme"
-                src="./images/stock-icon.png"
-                alt="sme companies"
-              />
+              <div class="benefits__image benefits__image--sme"></div>
             </div>
 
-            <h3 class="benefits__title">SME Logistics Companies</h3>
+            <div class="benefits__main-content">
+              <h3 class="benefits__title">SME Logistics Companies</h3>
 
-            <div class="benefits__article">
-              <p class="benefits__paragraph">
-                For Companies that move their goods in Shipping Containers who
-                want to reduce the Risk when moving goods we have the answer.
-              </p>
+              <div class="benefits__image benefits__image--sme"></div>
 
-              <p class="benefits__paragraph">
-                When moving goods by Container it is important to ensure that
-                your goods receive the optimum protection whilst in Transit,
-                that you know where your goods are and the condition of these
-                goods and that your Transport partners are conforming to the
-                Service Level Agreement.
-              </p>
+              <div class="benefits__article">
+                <p class="benefits__paragraph">
+                  There are increasing demands for technology-based services from Logistics Companies. SME Logistics providers often don’t have access to the sophisticated ICT solutions to provide these.
+                </p>
 
-              <p class="benefits__paragraph">
-                Trakalok provides all the technology and services to support
-                this. The unique combination of Hardware and Software will
-                enable goods owners to add real benefit to their Supply Chain
-                Risk Management activities.
-              </p>
+                <p class="benefits__paragraph">
+                  Loksys Solutions offer its leading M-Intransit Platform as a Cloud based subscription services, which along with developments of the Internet of Things provide a cost effective platform to develop the appropriate solutions.
+                </p>
+
+                <p class="benefits__paragraph">
+                  The M-Intransit Platform provides advanced features which allow you to manage your resources with a comprehensive work flow solution, access many of the benefits of connected hardware, address the emerging e-Freight initiatives and provide you with a competitive sales advantage on your competition.
+                </p>
+              </div>
             </div>
+
+            <a href="#" class="benefits__button">Learn more</a>
           </div>
 
-          <a href="#" class="benefits__button">Learn more</a>
-
-          <div class="arrow arrow--white"></div>
+          <div class="benefits__arrow arrow"></div>
         </div>
       </div>
 
-      <div class="contacts">
+      <div class="contacts" id="contact">
         <h2 class="contacts__title">Contact us</h2>
         <div class="contacts__map-container">
           <div class="contacts__logo-container">
