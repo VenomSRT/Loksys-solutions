@@ -884,7 +884,7 @@ body {
   background-repeat: no-repeat;
 }
 .benefits__image--freight {
-  background-image: url("../../images/freight-icon.png");
+  background-image: url("../images/freight-icon.png");
   width: 59px;
   height: 57px;
 }
@@ -901,7 +901,7 @@ body {
   }
 }
 .benefits__image--transportation {
-  background-image: url("../../images/transportation-icon.png");
+  background-image: url("../images/transportation-icon.png");
   width: 79px;
   height: 66px;
 }
@@ -918,7 +918,7 @@ body {
   }
 }
 .benefits__image--crane {
-  background-image: url("../../images/crane-icon.png");
+  background-image: url("../images/crane-icon.png");
   width: 69px;
   height: 75px;
 }
@@ -935,7 +935,7 @@ body {
   }
 }
 .benefits__image--sme {
-  background-image: url("../../images/stock-icon.png");
+  background-image: url("../images/stock-icon.png");
   width: 69px;
   height: 49px;
 }
@@ -1226,7 +1226,7 @@ div.swiper-button-next::after {
   content: "";
   width: 60px;
   height: 114px;
-  background-image: url("../../images/slider-arrow.png");
+  background-image: url("../images/slider-arrow.png");
 }
 @media (min-width: 1356px) {
   div.swiper-button-next {
@@ -1241,7 +1241,7 @@ div.swiper-button-prev::after {
   content: "";
   width: 60px;
   height: 114px;
-  background-image: url("../../images/slider-arrow.png");
+  background-image: url("../images/slider-arrow.png");
   transform: rotate(180deg);
 }
 @media (min-width: 1356px) {
