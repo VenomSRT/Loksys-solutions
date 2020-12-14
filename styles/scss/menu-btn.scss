@@ -1,14 +1,17 @@
 .menu-btn {
-  position: relative;
+  position: absolute;
+  right: 0;
+  top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 34px;
-  height: 30px;
+  width: 66px;
+  height: 100%;
+  background-color: #fff;
   cursor: pointer;
 
   @media (min-width: 750px) {
-    width: 63px;
+    width: 133px;
   }
 
   @media (min-width: 1024px) {
@@ -31,7 +34,7 @@
       position: absolute;
       width: 32px;
       height: 4px;
-      background: #265869;
+      background-color: #265869;
       border-radius: 5px;
       transform: translateY(-9px);
 
@@ -47,7 +50,7 @@
       position: absolute;
       width: 32px;
       height: 4px;
-      background: #265869;
+      background-color: #265869;
       border-radius: 5px;
       transform: translateY(9px);
 
@@ -58,4 +61,20 @@
       }
     }
   }
+}
+
+.menu-btn.open {
+  background-color: #265869;
+}
+
+.menu-btn.open .menu-btn__burger {
+  background-color: #fff;
+}
+
+.menu-btn.open .menu-btn__burger::before {
+  background-color: #fff;
+}
+
+.menu-btn.open .menu-btn__burger::after {
+  background-color: #fff;
 }

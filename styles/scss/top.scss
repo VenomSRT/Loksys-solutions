@@ -61,6 +61,21 @@
     width: 100%;
   }
 
+  &__location-dot {
+    display: none;
+    position: absolute;
+    top: 75px;
+    left: 136px;
+    width: 15px;
+    height: 15px;
+    background-color: #f00;
+    border-radius: 50%;
+
+    @media (min-width: 1024px) {
+      display: block;
+    }
+  }
+
   &__links-container {
     display: flex;
     flex-direction: column;
@@ -91,7 +106,7 @@
       font-size: 19px;
     }
 
-    &:hover {
+    &--active {
       font-weight: 700;
       text-decoration: underline;
     }

@@ -20,17 +20,23 @@ let menuOpen = false;
 menuBtn.addEventListener('click', () => {
     if(!menuOpen) {
         menu.style.display = 'flex';
+        menuBtn.classList.add('open');
         menuOpen = true;
     } else {
         menu.style.display = 'none';
+        menuBtn.classList.remove('open');
         menuOpen = false;
     }
 });
 
-document.body.addEventListener('resize', () => {
-    if (getComputedStyle(document.body).width >= 1024) {
+window.addEventListener('resize', () => {
+    if (parseInt(getComputedStyle(document.body).width, 10) >= 1024) {
         menu.style.display = 'flex';
+        menuBtn.classList.add('open');
+        menuOpen = true;
     } else {
         menu.style.display = 'none';
+        menuBtn.classList.remove('open');
+        menuOpen = false;
     }
 })

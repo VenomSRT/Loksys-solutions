@@ -12,8 +12,14 @@
       padding: 26px 27px;
     }
 
+    @media (min-width: 1024px) {
+      padding-top: 41px;
+      padding-bottom: 0;
+    }
+
     @media (min-width: 1356px) {
-      padding: 0;
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 
@@ -22,7 +28,7 @@
     height: 37px;
 
     @media (min-width: 750px) {
-      width: 375px;
+      width: 387px;
       height: 79px;
     }
   }

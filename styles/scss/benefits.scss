@@ -274,7 +274,14 @@
     background-color: #4d91b6;
     font-size: 14px;
     color: #fff;
+    border: 1px solid #4d91b6;
     grid-area: button;
+    transition: color 0.3s, background-color 0.3s;
+
+    &:hover {
+      color: #4d91b6;
+      background-color: transparent;
+    }
 
     @media (min-width: 1356px) {
       display: flex;
