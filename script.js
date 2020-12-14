@@ -30,7 +30,7 @@ menuBtn.addEventListener('click', () => {
 });
 
 window.addEventListener('resize', () => {
-    if (parseInt(getComputedStyle(document.body).width, 10) >= 1024) {
+    if (parseInt(getComputedStyle(document.body).width, 10) >= 1007) {
         menu.style.display = 'flex';
         menuBtn.classList.add('open');
         menuOpen = true;
