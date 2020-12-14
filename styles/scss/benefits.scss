@@ -289,10 +289,10 @@
   }
 
   &__arrow {
-    background-image: url("../../images/arrow-white.png");
+    background-image: url("../images/arrow-white.png");
 
     @media (min-width: 1356px) {
-      background-image: url("../../images/arrow.png")
+      background-image: url("../images/arrow.png")
     }
   }
 }

@@ -111,7 +111,7 @@ body {
   margin: 0 auto;
   width: 43px;
   height: 43px;
-  background-image: url("../../images/arrow.png");
+  background-image: url("../images/arrow.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -331,7 +331,7 @@ body {
 .top {
   padding-top: 43px;
   padding-bottom: 71px;
-  background-image: url("../../images/head-bg-mobile.jpg");
+  background-image: url("../images/head-bg-mobile.jpg");
   background-position-y: 175px;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -347,7 +347,7 @@ body {
   .top {
     padding-top: 38px;
     padding-bottom: 7px;
-    background-image: url("../../images/head-bg.jpg");
+    background-image: url("../images/head-bg.jpg");
     background-size: cover;
     background-position-y: 0px;
   }
@@ -525,7 +525,7 @@ body {
 }
 @media (min-width: 1024px) {
   .about {
-    background-image: url("../../images/about-bg.jpg");
+    background-image: url("../images/about-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 16px;
@@ -555,7 +555,7 @@ body {
 }
 @media (min-width: 1024px) {
   .business {
-    background-image: url("../../images/business-bg.jpg");
+    background-image: url("../images/business-bg.jpg");
     background-size: cover;
   }
 }
@@ -1001,11 +1001,11 @@ body {
   }
 }
 .benefits__arrow {
-  background-image: url("../../images/arrow-white.png");
+  background-image: url("../images/arrow-white.png");
 }
 @media (min-width: 1356px) {
   .benefits__arrow {
-    background-image: url("../../images/arrow.png");
+    background-image: url("../images/arrow.png");
   }
 }
 
