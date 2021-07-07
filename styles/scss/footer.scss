@@ -1,0 +1,95 @@
+.footer {
+  padding: 50px 0;
+  background-color: #285569;
+  color: #fff;
+  font-size: 15px;
+
+  @media (min-width: 750px) {
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+
+  @media (min-width: 1024px) {
+    padding-top: 89px;
+    padding-bottom: 0;
+  }
+
+  &__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 42px;
+
+    @media (min-width: 750px) {
+      padding-bottom: 74px;
+    }
+
+    @media (min-width: 1024px) {
+      padding-bottom: 0;
+    }
+  }
+
+  &__contacts {
+    padding-bottom: 18px;
+    text-align: center;
+    color: #fff;
+
+    @media (min-width: 750px) {
+      padding-bottom: 38px;
+      font-size: 29px;
+    }
+
+    @media (min-width: 1024px) {
+      padding-bottom: 29px;
+      font-size: 23px;
+    }
+  }
+
+  &__soc-container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    justify-content: space-between;
+    width: 102px;
+
+    @media (min-width: 750px) {
+      width: 204px;
+    }
+
+    @media (min-width: 1024px) {
+      right: 58px;
+      left: auto;
+      bottom: 21px;
+      transform: translate(0, 0);
+    }
+  }
+
+  &__soc-image {
+    &--facebook {
+      width: 12px;
+
+      @media (min-width: 750px) {
+        width: 25px;
+      }
+    }
+
+    &--twitter {
+      width: 30px;
+
+      @media (min-width: 750px) {
+        width: 57px;
+      }
+    }
+
+    &--linkedin {
+      width: 22px;
+
+      @media (min-width: 750px) {
+        width: 45px;
+      }
+    }
+  }
+}

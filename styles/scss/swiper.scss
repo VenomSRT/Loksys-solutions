@@ -1,0 +1,34 @@
+div.swiper {
+  &-button-next {
+    visibility: hidden;
+    width: 60px;
+
+    &::after {
+      content: "";
+      width: 60px;
+      height: 114px;
+      background-image: url("../images/slider-arrow.png");
+    }
+
+    @media (min-width: 1356px) {
+      visibility: visible;
+    }
+  }
+
+  &-button-prev {
+    visibility: hidden;
+    width: 60px;
+
+    &::after {
+      content: "";
+      width: 60px;
+      height: 114px;
+      background-image: url("../images/slider-arrow.png");
+      transform: rotate(180deg);
+    }
+
+    @media (min-width: 1356px) {
+      visibility: visible;
+    }
+  }
+}

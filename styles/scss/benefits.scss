@@ -1,0 +1,298 @@
+.benefits {
+  color: #fff;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 121px;
+
+    @media (min-width: 750px) {
+      padding-bottom: 242px;
+    }
+
+    &--freight-owners {
+      background-color: #b42969;
+    }
+
+    &--large-companies {
+      background-color: #662781;
+    }
+
+    &--large-logistics {
+      background-color: #2c7797;
+    }
+
+    &--sme {
+      background-color: #93c023;
+    }
+
+    @media (min-width: 1356px) {
+      background-color: #fff;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-bottom: 20px;
+
+      &--freight-owners {
+        color: #b42969;
+        background-image: url("../images/freight-bg.jpg");
+      }
+  
+      &--large-companies {
+        color: #662781;
+        background-image: url("../images/large-logistics-bg.jpg");
+      }
+  
+      &--large-logistics {
+        color: #2c7797;
+        background-image: url("../images/smart-ecosystems-bg.jpg");
+      }
+  
+      &--sme {
+        color: #58595b;
+        background-image: url("../images/SME-bg.jpg");
+      }
+    }
+  }
+
+  &__header {
+    display: none;
+    height: 98px;
+
+    &--freight-owners {
+      background-color: #b42969;
+    }
+
+    &--large-companies {
+      background-color: #662781;
+    }
+
+    &--large-logistics {
+      background-color: #2c7797;
+    }
+
+    &--sme {
+      background-color: #93c023;
+    }
+
+    @media (min-width: 1356px) {
+      display: block;
+    }
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+
+    @media (min-width: 1356px) {
+      padding-top: 135px;
+      padding-bottom: 28px;
+      align-items: start;
+      grid-template-columns: 403px 1fr;
+      grid-template-rows: 1fr 81px;
+      grid-template-areas:
+        "image article"
+        "image button"
+      ;
+    }
+  }
+
+  &__main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media (min-width: 1356px) {
+      justify-self: start;
+      padding: 0 50px;
+    }
+
+    .benefits__image {
+      @media (min-width: 1356px) {
+        display: none;
+      }
+    }
+  }
+
+  &__title {
+    padding: 27px 0 21px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;
+
+    @media (min-width: 750px) {
+      padding-top: 49px;
+      padding-bottom: 44px;
+      font-size: 40px;
+    }
+
+    @media (min-width: 1356px) {
+      align-self: start;
+      padding: 0;
+      text-transform: none;
+      font-size: 30px;
+    }
+  }
+
+  &__image-container {
+    display: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-area: image;
+
+    @media (min-width: 1356px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 403px;
+      height: 349px;
+      background-size: 403px;
+      transform: translate(19px, 10px);
+    }
+
+    &--freight {
+      background-image: url("../images/hex-red.png");
+    }
+
+    &--crane {
+      background-image: url("../images/hex-blue.png");
+    }
+
+    &--transportation {
+      background-image: url("../images/hex-purple.png");
+    }
+
+    &--sme {
+      background-image: url("../images/hex-green.png");
+    }
+  }
+
+  &__image {
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    &--freight {
+      background-image: url("../images/freight-icon.png");
+      width: 59px;
+      height: 57px;
+
+      @media (min-width: 750px) {
+        width: 117px;
+        height: 114px;
+      }
+
+      @media (min-width: 1356px) {
+        width: 246px;
+        height: 239px;
+      }
+    }
+
+    &--transportation {
+      background-image: url("../images/transportation-icon.png");
+      width: 79px;
+      height: 66px;
+
+      @media (min-width: 750px) {
+        width: 158px;
+        height: 133px;
+      }
+
+      @media (min-width: 1356px) {
+        width: 221px;
+        height: 185px;
+      }
+    }
+
+    &--crane {
+      background-image: url("../images/crane-icon.png");
+      width: 69px;
+      height: 75px;
+
+      @media (min-width: 750px) {
+        width: 138px;
+        height: 149px;
+      }
+      
+      @media (min-width: 1356px) {
+        height: 210px;
+        width: 194px;
+      }
+    }
+
+    &--sme {
+      background-image: url("../images/stock-icon.png");
+      width: 69px;
+      height: 49px;
+
+      @media (min-width: 750px) {
+        width: 136px;
+        height: 96px;
+      }
+
+      @media (min-width: 1356px) {
+        width: 274px;
+        height: 194px;
+      }
+    }
+  }
+
+  &__article {
+    padding: 21px 33px 28px;
+    font-size: 15px;
+    text-align: center;
+    grid-area: article;
+
+    @media (min-width: 750px) {
+      padding: 44px 68px 92px;
+      font-size: 30px;
+    }
+
+    @media (min-width: 1356px) {
+      text-align: left;
+      padding: 0;
+      font-size: 22px;
+    }
+  }
+
+  &__paragraph {
+    @media (min-width: 1356px) {
+      padding-top: 27px;
+      padding-bottom: 4px;
+    }
+  }
+
+  &__button {
+    display: none;
+    justify-self: end;
+    align-self: end;
+    width: 140px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    background-color: #4d91b6;
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid #4d91b6;
+    grid-area: button;
+    transition: color 0.3s, background-color 0.3s;
+
+    &:hover {
+      color: #4d91b6;
+      background-color: transparent;
+    }
+
+    @media (min-width: 1356px) {
+      display: flex;
+    }
+  }
+
+  &__arrow {
+    background-image: url("../images/arrow-white.png");
+
+    @media (min-width: 1356px) {
+      background-image: url("../images/arrow.png")
+    }
+  }
+}

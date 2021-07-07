@@ -1,0 +1,53 @@
+%chapterTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 71px;
+  text-transform: uppercase;
+  background-color: #285569;
+  color: #fff;
+  font-weight: 100;
+  font-size: 19px;
+
+  @media (min-width: 750px) {
+    height: 143px;
+    font-size: 40px;
+  }
+
+  @media (min-width: 1024px) {
+    height: 98px;
+    font-size: 23px;
+  }
+}
+
+%paragraph {
+  padding: 10px 0;
+  text-align: center;
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 24px;
+  color: #285569;
+
+  @media (min-width: 750px) {
+    font-size: 30px;
+    line-height: 47px;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  @media (min-width: 1356px) {
+    padding: 0;
+  }
+}
+
+%topImageBorders {
+  display: none;
+  content: "";
+  position: absolute;
+  height: 338px;
+  width: 338px;
+  border-radius: 50%;
+}

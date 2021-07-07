@@ -1,0 +1,48 @@
+.header {
+  padding-bottom: 13px;
+  position: relative;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 14px;
+
+    @media (min-width: 750px) {
+      padding: 26px 27px;
+    }
+
+    @media (min-width: 1024px) {
+      padding-top: 41px;
+      padding-bottom: 0;
+    }
+
+    @media (min-width: 1356px) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  &__logo {
+    width: 190px;
+    height: 37px;
+
+    @media (min-width: 750px) {
+      width: 387px;
+      height: 79px;
+    }
+  }
+
+  &__navigation {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(0, 100%);
+    z-index: 2;
+
+    @media (min-width: 1024px) {
+      position: static;
+      transform: translate(0, 0);
+    }
+  }
+}
